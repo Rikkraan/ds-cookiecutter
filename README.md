@@ -6,7 +6,7 @@ Adjusted from the [original data science cookiecutter](http://drivendata.github.
 
 ### Requirements to use the cookiecutter template:
 -----------
- - Python 2.7 or 3.5+
+ - Python 3.5+
  - [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html) >= 1.4.0: This can be installed with pip by or conda depending on how you manage your Python packages:
 
 ``` bash
