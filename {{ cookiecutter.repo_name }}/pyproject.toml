@@ -1,0 +1,15 @@
+### Pytest configuration
+[tool.pytest.ini_options]
+# Filter deprecation warnings of third party packages
+filterwarnings = "ignore::DeprecationWarning"
+
+### Ruff configuration
+[tool.ruff]
+# Set linting rules
+select = ["E", "F", "B", "W", "PL", "D", "Q", "PT"]
+ignore = ["D100", "D104"]
+# Set line length
+line-length = 88
+# Force docstring format
+[tool.ruff.pydocstyle]
+convention = "google"
