@@ -44,7 +44,7 @@ Project Organization
     │   │
     │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
     │
-    └── pyproject.toml     <- tox file with settings for running tox; see tox.readthedocs.io
+    └── pyproject.toml     <- Project configuration file
 
 
 --------
